@@ -1,31 +1,59 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <Header />
+    <Main />
+    <Footer />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+<script>
+  import Header from './components/Header.vue';
+  import Main from './components/Main.vue';
+  import Footer from './components/Footer.vue';
+  
+  export default {
+    components: {
+      Header,
+      Main,
+      Footer,
+      
+    }
+  }
+</script>
+
+<style>
+  /* GENERAL CSS */
+  *{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #000000;
+    
+  }
+  .container{
+    max-width: 1157px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .site-btn{
+    padding: 8px 16px;
+    text-decoration: none;
+    background: #00BAFC;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    border: 3px solid transparent;
+  }
 </style>
