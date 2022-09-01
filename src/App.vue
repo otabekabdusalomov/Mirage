@@ -8,15 +8,14 @@
 
 <script>
   import Header from './components/Header.vue';
-  import Main from './components/Main.vue';
+  import Main from './components/Main/Main.vue';
   import Footer from './components/Footer.vue';
   
   export default {
     components: {
       Header,
       Main,
-      Footer,
-      
+      Footer, 
     }
   }
 </script>
@@ -26,7 +25,7 @@
   *{
     box-sizing: border-box;
   }
-  
+
   body{
     margin: 0;
     padding: 0;
@@ -35,7 +34,7 @@
     
   }
   .container{
-    max-width: 1157px;
+    max-width: 1187px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -55,5 +54,12 @@
     font-weight: 700;
     line-height: 24px;
     border: 3px solid transparent;
+    transition: 0.4s;
+  }
+  .site-btn:hover{
+    opacity: 0.8;
+  }
+  .site-btn:active{
+    opacity: 0.4;
   }
 </style>
