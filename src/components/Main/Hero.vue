@@ -22,6 +22,7 @@
 
 <style>
     .hero{
+        display: none;
         padding-top: 129px;
         padding-bottom: 139px;
     }

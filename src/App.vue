@@ -45,9 +45,9 @@
     display: inline-block;
   }
   .site-btn{
-    padding: 8px 16px;
+    padding: 12px 30px;
     text-decoration: none;
-    background: #00BAFC;
+    background: #F78BB6;
     border-radius: 5px;
     color: white;
     font-size: 15px;
