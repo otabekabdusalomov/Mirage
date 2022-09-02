@@ -22,8 +22,8 @@
 
 <style>
     .hero{
-        padding-bottom: 139px;
-        padding: 129px 0px;
+        padding-top: 139px;
+        padding: 129px;
     }
     .hero-container{
         display: flex;
