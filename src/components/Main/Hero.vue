@@ -22,8 +22,7 @@
 
 <style>
     .hero{
-        padding-top: 129px;
-        padding-bottom: 139px;
+        padding: 129px 0px;
     }
     .hero-container{
         display: flex;
@@ -39,8 +38,7 @@
         font-weight: 500;
         font-size: 28px;
         line-height: 40px;
-        color: #F78CB6;
-        
+        color: #F78CB6;   
     }
     .hero-box-heading{
         margin: 0;
@@ -70,5 +68,32 @@
         color: #FFFFFF;
         background: #F78BB6;
         border-radius: 4px;
+    }
+    @media only screen and (max-width: 1023px) {
+        .hero-container{
+            flex-direction: column;
+        }
+        .hero-box{
+            max-width: 100%;
+        }
+        .hero-left-img{
+            margin-top: 20px;
+            flex-shrink: 0;
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .hero {
+           padding: 63px 0px;
+        }
+        .hero-box-heading {
+            font-size: 45px;
+            margin-bottom: 14px;
+        }
+        .hero-box-desc {
+            font-size: 18px;
+            margin-bottom: 14px;
+        }
     }
 </style>
