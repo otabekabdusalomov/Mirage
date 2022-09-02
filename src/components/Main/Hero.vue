@@ -22,7 +22,7 @@
 
 <style>
     .hero{
-        padding-top: 139px;
+        /* padding-bottom: 139px; */
         padding: 129px;
     }
     .hero-container{
