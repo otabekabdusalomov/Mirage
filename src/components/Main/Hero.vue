@@ -88,7 +88,7 @@
            padding: 63px 0px;
         }
         .hero-box-heading {
-            font-size: 45px;
+            font-size: 40px;
             margin-bottom: 14px;
         }
         .hero-box-desc {
