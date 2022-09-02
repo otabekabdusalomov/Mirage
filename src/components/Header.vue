@@ -42,6 +42,7 @@
 <style>
     .header{
         padding-top: 20px 0px;
+        padding-bottom: 139px;
     }
     .header-container{
         display: flex;
@@ -118,8 +119,8 @@
             flex-direction: column;
         }
         .header--open .navbar-list .navbar-item {
-            margin: 0;
-            padding: 0;
+            /* margin: 0;
+            padding: 0; */
             vertical-align: middle;
             margin-top: 10px;
         }
