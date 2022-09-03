@@ -22,8 +22,8 @@
                     </a>
                 </li>
                 
-                <li class="group-list-item group-list-item-three">
-                    <a class="group-list-link" href="#">
+                <li class="group-list-item">
+                    <a class="group-list-link group-list-link-three" href="#">
                         <img class="group-list-item-img" src="../../assets/imgs/choose-img3.png" alt="img" width="50" height="50">
                         <h3 class="group-list-heading">Branding</h3>
                         <p class="group-list-desc">The marketing practice of creating a name, symbol or</p>
@@ -52,8 +52,11 @@
 
 
 <style>
+    .group {
+        margin-bottom: 194px;
+    }
     .group-box{
-        /* max-width: 558px; */
+        max-width: 558px;
         margin: auto;
         margin-bottom: 58px;
     }
@@ -80,15 +83,18 @@
         list-style: none;
     }
     .group-list-item + .group-list-item {
-        margin-left: 15px;
+        margin-left: 30px;
     }
     .group-list-link {
         text-decoration: none;
         display: inline-block;
-        padding: 24px 58px;
+        padding: 24px 24px;
         background: #FFF1F9;
         border-radius: 8px;
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    }
+    .group-list-link-three {
+        background: #F78CB6;
     }
     .group-list-desc {
         margin: 0;
@@ -102,7 +108,7 @@
     }
     .group-list-item-img{
         margin-bottom: 38px;
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .group-list-heading {
         text-align: center;
@@ -120,6 +126,8 @@
         line-height: 30px;
         text-align: center;
         color: #FFFFFF;
+        margin-left: 45px;
+        padding-top: 10px;
     }
     
     
