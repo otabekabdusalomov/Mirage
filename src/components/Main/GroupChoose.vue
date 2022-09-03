@@ -49,14 +49,11 @@
     }
 </script>
 
-
-
 <style>
     .group {
         margin-bottom: 194px;
     }
     .group-box{
-        max-width: 558px;
         margin: auto;
         margin-bottom: 58px;
     }
