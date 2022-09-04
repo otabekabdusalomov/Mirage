@@ -6,7 +6,7 @@
                 <h2 class="group-box-heading">Why People Choose Us</h2>   
             </div>
             <ul class="group-list">
-                <li class="group-list-item">
+                <li class="group-list-item group-list-item-res">
                     <a class="group-list-link" href="#">
                         <img class="group-list-item-img" src="../../assets/imgs/choose-img1.png" alt="img" width="50" height="50">
                         <h3 class="group-list-heading">Design</h3>
@@ -106,6 +106,7 @@
     .group-list-item-img{
         margin-bottom: 38px;
         margin-left: 70px;
+        
     }
     .group-list-heading {
         text-align: center;
@@ -127,5 +128,23 @@
         padding-top: 10px;
     }
     
-    
+    /* section-responsive */
+    @media only screen and (max-width: 1024px) {
+        .group-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .group-list-item {
+            margin-bottom: 20px;
+        }
+        .group-list-item-res{
+            margin-left: 30px;
+        }
+        .group-list-item-img{
+            margin-left: 77px;
+        }
+    };
 </style>
