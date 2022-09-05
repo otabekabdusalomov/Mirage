@@ -101,7 +101,7 @@
         text-align: center;
         color: #919299;
         max-width: 224px;
-        
+        margin-bottom: 10px;
     }
     .group-list-item-img{
         margin-bottom: 38px;

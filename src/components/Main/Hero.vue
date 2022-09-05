@@ -6,7 +6,9 @@
                 <h1 class="hero-box-heading">We Deliver The Best Product for You</h1>
                 <p class="hero-box-desc">Design is the creation of a plan or convention for the construction of an object or a system as in architectural blueprints, engineering drawings, business processes,</p>
                 
-                <button class="site-btn hero-btn">Get started</button>
+                <button class="site-btn hero-btn">Get started
+                    <img class="design-button-img" src="../../assets/imgs/design-line.png" alt="design-line-img" width="25" height="25">
+                </button>
                 
             </div>
             <img class="hero-left-img" src="../../assets/imgs/header.png" alt="hero-img" width="532" height="532">
@@ -69,7 +71,14 @@
         color: #FFFFFF;
         background: #F78BB6;
         border-radius: 4px;
+        vertical-align: middle;
+        align-items: center;
     }
+    /* .hero-btn .hero-button-line-img {
+        display: inline-block;
+        
+    } */
+    /* Hero-serponsive */
     @media only screen and (max-width: 1023px) {
         .hero-container{
             flex-direction: column;

@@ -41,8 +41,8 @@
 
 <style>
     .header{
-        padding-top: 30px 0px;
-        padding-bottom: 129px;
+        padding-top: 30px;
+        padding-bottom: 110px;
     }
     .header-container{
         display: flex;
