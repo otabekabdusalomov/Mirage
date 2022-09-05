@@ -134,8 +134,6 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            margin: 0;
-            padding: 0;
         }
         .group-list-item {
             margin-bottom: 20px;
@@ -145,6 +143,16 @@
         }
         .group-list-item-img{
             margin-left: 77px;
+        }
+        .group-box-heading {
+            font-size: 40px
+        }
+        .group-list-link-three .group-list-desc{
+            color: white;
+            margin-bottom: 10px
+        }
+        .group-list-link-three .group-list-span {
+          margin-left: 50px
         }
     };
 </style>
