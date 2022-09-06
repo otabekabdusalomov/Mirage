@@ -134,6 +134,7 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            justify-content: center;
         }
         .group-list-item {
             margin-bottom: 20px;

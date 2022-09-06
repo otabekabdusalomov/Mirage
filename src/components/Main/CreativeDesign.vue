@@ -90,6 +90,24 @@
     .design-list-left{
         margin-right: 79px;
     }
+    @media only screen and (max-width: 1024px) {
+        .design-list-item {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .design-list-item {
+            margin-top: 40px;
+           
+        }
+        .design-list-right-heading{
+            font-size: 40px;
+            font-weight: 500px;
+        }
+        .design-item-img{
+            max-width: 400px;
+            min-height: 372px;
+        }
+    }
     
     
 </style>

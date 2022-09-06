@@ -24,7 +24,6 @@
 
 <style>
     .hero{
-        /* padding-bottom: 139px; */
         padding: 129px;
     }
     .hero-container{
@@ -79,7 +78,7 @@
         
     } */
     /* Hero-serponsive */
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: 980px) {
         .hero-container{
             flex-direction: column;
         }
