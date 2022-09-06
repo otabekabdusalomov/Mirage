@@ -73,10 +73,7 @@
         vertical-align: middle;
         align-items: center;
     }
-    /* .hero-btn .hero-button-line-img {
-        display: inline-block;
-        
-    } */
+
     /* Hero-serponsive */
     @media only screen and (max-width: 980px) {
         .hero-container{
@@ -97,7 +94,7 @@
            padding: 63px 0px;
         }
         .hero-box-heading {
-            font-size: 40px;
+            font-size: 35px;
             margin-bottom: 14px;
         }
         .hero-box-desc {
