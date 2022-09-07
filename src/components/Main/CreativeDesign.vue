@@ -27,6 +27,18 @@
                         </button>
                     </div>
                 </li>
+                
+                <li class="design-list-item design-list-item-left">
+                    <img class="design-item-img" src="../../assets/imgs/three-img.png" alt="design1-img" width="500" height="472">
+                    <div class="design-list-left design-list-left-three">
+                        <span class="design-list-right-title">Testimonial</span>
+                        <h2 class="design-list-right-heading">Thats What Our Client Says About Us</h2>
+                        <p class="design-list-right-desc">“ Heartiest congratulations to the team for Future projects. I extend thankful wishes and wish the team best of luck for the future assignments to come. Your effort is gladly ”</p>
+                        
+                        <h3 class="design-list-right-suptitle">Jorge Morrison</h3>
+                        <span class="design-list-right-country">North California,USA</span>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -90,6 +102,23 @@
     .design-list-left{
         margin-right: 79px;
     }
+    .design-list-right-suptitle {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: #56597A;
+    }
+    .design-list-right-country{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #ABABAB;
+    }
+    .design-list-left-three {
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    
     @media only screen and (max-width: 1024px) {
         .design-list-item {
             flex-wrap: wrap;
