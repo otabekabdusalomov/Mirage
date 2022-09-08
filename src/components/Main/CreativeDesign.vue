@@ -121,6 +121,9 @@
     }
     
     @media only screen and (max-width: 1024px) {
+        .design {
+            padding-bottom: 50px;
+        }
         .design-list-item {
             flex-wrap: wrap;
             justify-content: center;
@@ -151,7 +154,6 @@
         }
         .design-list-right {
             margin-bottom: 25px;
-            /* text-align: center; */
             padding-top: 38px;
             margin: auto;
         }
