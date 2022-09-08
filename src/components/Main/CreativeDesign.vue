@@ -125,13 +125,6 @@
             flex-wrap: wrap;
             justify-content: center;
         }
-        
-        .design-list-left {
-            justify-content: center;
-        }
-        .design-list-right{
-            justify-content: center;
-        }
     }
     @media only screen and (max-width: 480px) {
         .design-list-right-heading{
@@ -154,10 +147,12 @@
             margin-bottom: 25px;
             /* text-align: center; */
             margin: auto;
+            padding-top: 38px; 
         }
         .design-list-right {
             margin-bottom: 25px;
-            text-align: center;
+            /* text-align: center; */
+            padding-top: 38px;
             margin: auto;
         }
     }

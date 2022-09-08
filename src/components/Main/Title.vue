@@ -66,9 +66,6 @@
     flex-shrink: 0;
   }
   @media only screen and (max-width: 1024px) {
-    .title {
-      padding-top: -80px;
-    }
     .title-container .title-list{
       flex-wrap: wrap;
     }
