@@ -114,6 +114,7 @@
         line-height: 32px;
         color: #ABABAB;
     }
+    
     .design-list-left-three {
         margin-left: 50px;
         margin-top: -50px;
@@ -151,7 +152,7 @@
         }
         .design-list-left {
             margin-bottom: 25px;
-            text-align: center;
+            /* text-align: center; */
             margin: auto;
         }
         .design-list-right {
