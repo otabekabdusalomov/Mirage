@@ -4,6 +4,7 @@
         <GroupChoose />
         <CreativeDesign />
         <Title />
+        <Blog />
     </div>
 </template>
 
@@ -12,12 +13,14 @@
     import GroupChoose from './GroupChoose.vue';
     import CreativeDesign from './CreativeDesign.vue';
     import Title from './Title.vue';
+    import Blog from './Blog.vue';
     export default {
         components: {
             Hero,
             GroupChoose,
             CreativeDesign,
             Title,
+            Blog,
         },
         
     }
