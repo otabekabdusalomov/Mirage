@@ -75,7 +75,7 @@
     }
 
     /* Hero-serponsive */
-    @media only screen and (max-width: 980px) {
+    @media only screen and (max-width: 1024px) {
         .hero-container{
             flex-direction: column;
         }

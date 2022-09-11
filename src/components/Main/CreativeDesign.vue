@@ -29,7 +29,7 @@
                 </li>
                 
                 <li class="design-list-item design-list-item-left">
-                    <img class="design-item-img" src="../../assets/imgs/three-img.png" alt="design1-img" width="500" height="472">
+                    <img class="design-item-img" src="../../assets/imgs/three-img.png" alt="design1-img" width="415" height="418">
                     <div class="design-list-left design-list-left-three">
                         <span class="design-list-right-title">Testimonial</span>
                         <h2 class="design-list-right-heading">Thats What Our Client Says About Us</h2>

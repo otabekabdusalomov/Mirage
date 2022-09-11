@@ -155,4 +155,9 @@
           margin-left: 50px
         }
     };
+    @media only screen and (max-width: 480px) {
+        .group-box-heading {
+           font-size: 37px;
+        }
+    }
 </style>
