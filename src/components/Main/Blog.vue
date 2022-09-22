@@ -16,8 +16,7 @@
                         </button>
                     </div>    
                 </div>
-                
-                
+            
             </div>
             
         </section>
@@ -28,8 +27,6 @@
             
         }
     </script>
-    
-    
     
     <style>
         .blog {
@@ -64,7 +61,6 @@
             font-size: 52px;
             line-height: 72px;
             color: #56597A;
-            
         }
         .blog-box-right-desc {
             margin: 0;
@@ -80,5 +76,33 @@
         }
         .blog-box-three-img {
             margin-right: 14px;
+        }
+        
+        /* responsive */
+        @media only screen and (max-width: 1016px) {
+            .blog-box-right-heading {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 60px;    
+            }
+            .blog-box-right-desc {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 30px;
+            }
+            .blog-left-img {
+               flex-shrink: 0;
+               padding-bottom: 40px;
+            }
+        }
+        @media only screen and (max-width: 887px) {
+            .blog-container {
+                flex-direction: column;
+            }
+            .blog-box-right-heading {
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 60px;    
+            }
         }
     </style>
